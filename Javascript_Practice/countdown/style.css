@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+  }
+
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+	background: #272D2D;
+	color: #25F74B;
+}
+
+.buttons {
+	padding: 30px;
+}
+
+button {
+	background: #587B7F;
+	padding: 8px;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #3B8EA5;
+}
+
+.countdown {
+	padding: 60px;
+}

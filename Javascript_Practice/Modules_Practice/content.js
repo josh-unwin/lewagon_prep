@@ -1,0 +1,6 @@
+let content = {
+	title: "Welcome to my site",
+	content: 'Lorem ipsum dolor sit amet consectetur adipiscing elit, lectus aliquam aenean inceptos cursus lobortis, et montes ut cum quam nunc. Tellus sem donec facilisi consequat odio blandit dignissim curabitur nulla platea, est morbi ac porta eros volutpat integer velit aliquam placerat, vitae turpis duis in ullamcorper orci mus ornare dui. Consequat per magnis eleifend velit ullamcorper sociis ornare, sagittis eros est tempor nulla nunc luctus, lacus pharetra id etiam habitasse donec. Facilisi dis sollicitudin primis fringilla dapibus quisque commodo, vivamus vel lectus erat proin magnis potenti, sociis aenean montes mollis mi porttitor. Ante bibendum platea euismod tincidunt ad per est porta dapibus litora, fermentum congue praesent orci pulvinar integer purus volutpat massa elementum, viverra risus at penatibus commodo cubilia augue malesuada ac. Himenaeos quis volutpat hac sem ad condimentum, pulvinar dui fames sociis primis ullamcorper arcu, vitae pretium nascetur scelerisque habitasse.',
+}
+
+export default content;

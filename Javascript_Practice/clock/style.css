@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.container {
+	background: linear-gradient(96deg, rgba(26,227,172,1) 0%, rgba(25,200,227,1) 100%);
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	display: flex;
+}
+
+.col-1 {
+	flex: 1 0 auto;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+	align-items: center;
+	min-width: 300px; 
+}
+
+.col-2 {
+	flex: 0 0 60%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 8%;
+	font-size: 50px;
+}
+
+.clock {
+	position: relative;
+	background: linear-gradient(42deg, rgba(210,210,210,0.3) 0%, rgba(255,255,255,0.6) 100%);
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+}
+
+.clock .number {
+	--rotation = 0;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+	font-size: 22px;
+	transform: rotate(var(--rotation));
+}
+
+.clock .number1 { --rotation: 30deg; }
+.clock .number2 { --rotation: 60deg; }
+.clock .number3 { --rotation: 90deg; }
+.clock .number4 { --rotation: 120deg; }
+.clock .number5 { --rotation: 150deg; }
+.clock .number6 { --rotation: 180deg; }
+.clock .number7 { --rotation: 210deg; }
+.clock .number8 { --rotation: 240deg; }
+.clock .number9 { --rotation: 270deg; }
+.clock .number10 { --rotation: 300deg; }
+.clock .number11 { --rotation: 330deg; }
+
+/*This is the circle in the middle of the clock*/
+.clock::after {
+	content: '';
+	position: absolute;
+	background-color: white;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	bottom: 50%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	border: 5px solid black;
+}
+
+.hand {
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	--rotation: 30;
+	transform-origin: bottom;
+	transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+}
+
+.second {
+	height: 45%;
+	width: 1px;
+	background-color: red;
+}
+
+.minute {
+	height: 40%;
+	width: 6px;
+	background-color: black;
+}
+
+.hour {
+	height: 25%;
+	width: 10px;
+	background-color: black;
+}
+
+.digital-clock {
+	padding-top: 120px;
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.digital-time {
+	font-size: 44px;
+}
+
+.secondary-text {
+	color: rgba(0,0,0,0.5);
+}

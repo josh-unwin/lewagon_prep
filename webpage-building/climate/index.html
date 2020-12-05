@@ -1,0 +1,138 @@
+<!doctype html>
+
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Green Dash - The climate dashboard</title>
+    <meta name="description" content="Page Description">
+    <meta name="author" content="Josh Unwin">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <script defer src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <nav id="sidebar">
+        <img src='https://picsum.photos/300/200'>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+      </ul>
+      </nav>
+      <div class="header">
+        <svg id="hamburger" width="26" viewBox="0 0 96 82" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M95.5 0.800003H0.5V15.4H95.5V0.800003Z" fill="white"/><path d="M95.5 33.7H0.5V48.3H95.5V33.7Z" fill="white"/><path d="M95.5 66.6H0.5V81.2H95.5V66.6Z" fill="white"/></svg>
+        <img id="logo" src="./Assets/logo.svg" height="60px">
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-5 stats">
+            <div class="card">
+              <h3>Paris Agreement</h3>
+              <hr>
+              <h4>Limit warming to maximum of <b>2°C</b> with a target of <b>1.5°C</b></h4>
+              <p><b><span data-days-until-paris></span></b> days until next Paris Agreement meeting</p>
+              <span class="card-footer-custom">Why Paris isn't enough...</span>
+            </div>
+
+            <div class="card">
+              <h3>Next Global Event</h3>
+              <hr>
+              <h1>20th September 2019</h1>
+              <h2>Global Strike Day</h2>
+              <button type="button" class="btn btn-info">Get Involved</button>
+            </div>
+          </div>
+          <div class="col info1">
+            <div class="card">
+              <h3>Statistics</h3>
+              <hr>
+            </div>
+          </div>
+          <div class="col info2">
+            <div class="card card-news">
+              <h3>News</h3>
+              <hr>
+              <div class="media">
+                <ul class="list-unstyled">
+                  <li class="media my-4">
+                  <img src="https://picsum.photos/64?random=1" class="align-self-center mr-3" alt="...">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">List-based media object</h5>
+                      <p>Cras sit amet nibh libero, in gravida nulla. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.</p>
+                    </div>
+                  </li>
+                  <li class="media my-4">
+                  <img src="https://picsum.photos/64?random=2" class="align-self-center mr-3" alt="...">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">List-based media object</h5>
+                      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.</p>
+                    </div>
+                  </li>
+                  <li class="media my-4">
+                    <img src="https://picsum.photos/64?random=3" class="align-self-center mr-3" alt="...">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">List-based media object</h5>
+                      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Ifal vulputate fringilla.</p>
+                    </div>
+                  </li>
+                  <li class="media my-4">
+                    <img src="https://picsum.photos/64?random=4" class="align-self-center mr-3" alt="...">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">List-based media object</h5>
+                      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Ifal vulputate fringilla.</p>
+                    </div>
+                  </li>
+                  <li class="media my-4">
+                    <img src="https://picsum.photos/64?random=5" class="align-self-center mr-3" alt="...">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">List-based media object</h5>
+                      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Ifal vulputate fringilla.</p>
+                    </div>
+                  </li>
+                  <li class="media my-4">
+                    <img src="https://picsum.photos/64?random=6" class="align-self-center mr-3" alt="...">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">List-based media object</h5>
+                      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Ifal vulputate fringilla.</p>
+                    </div>
+                  </li>
+                  <li class="media my-4">
+                    <img src="https://picsum.photos/64?random=7" class="align-self-center mr-3" alt="...">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">List-based media object</h5>
+                      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Ifal vulputate fringilla.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div> 
+    </body>
+  </html>

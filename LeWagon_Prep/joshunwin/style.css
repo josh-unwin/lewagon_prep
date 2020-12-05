@@ -1,0 +1,53 @@
+@import url("./css/search.css");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes fade {
+    0%{
+        background: linear-gradient(150deg, rgba(227,26,55,0) 0%, rgba(227,25,99,0) 100%);
+    }
+    50% {
+        background: linear-gradient(150deg, rgba(227,26,55,0.5) 0%, rgba(227,25,99,0.5) 100%);
+        
+    }
+    100%{
+        background: linear-gradient(150deg, rgba(227,26,55,1) 0%, rgba(227,25,99,1) 100%);
+    }
+}
+
+.header > div {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    left: 80px;
+}
+
+.section {
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    background-image: url(https://picsum.photos/1080/1080);
+    background-size: cover;
+    height: 100vh; 
+}

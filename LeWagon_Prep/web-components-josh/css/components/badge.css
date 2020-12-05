@@ -1,0 +1,15 @@
+.avatar-badge {
+    position: absolute;
+}
+
+.badge {
+    background: #e60611;
+    line-height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    padding: 0;
+    color: white;
+    position: relative;
+    top: -9px;
+    right: -34px;
+}

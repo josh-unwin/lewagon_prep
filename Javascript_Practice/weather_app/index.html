@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Page Title</title>
+  <meta name="description" content="Page Description">
+  <meta name="author" content="Josh Unwin">
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,700,800&display=swap" rel="stylesheet">
+
+  <script src="app.js"></script>
+  <script src="skycons.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="location">
+      <p>The weather in</p>
+      <h2 class="location-name">Getting location...</h2>
+    </div>
+    <div class="temperature">
+        <canvas id="icon1" width="80" height="80"></canvas>
+      <div class="temp-section">
+        <h1 class="temp-value">Grabbing Location...</h1>
+        <div id="degree">C</div>
+      </div>
+      <div class="temperature-description">
+      </div>
+    </div>
+    <div class="footer">
+        <button type="button" id="backgroundbtn" onclick="changeBackground()">Change background</button>
+    </div>
+  </div>
+
+</body>
+</html>

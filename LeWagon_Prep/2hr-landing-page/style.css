@@ -1,0 +1,68 @@
+body {
+	background: rgb(240,240,240);
+	color: rgb(20,20,20);
+	font-family: 'Open Sans', sans-serif;
+	background-image: 'images/background.jpg';
+	font-size: 12px;
+}
+
+h1 {
+	color: #f9ac58;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 50px;
+}
+
+#banner h1 {
+	padding-bottom: 30px;
+}
+
+.container {
+	max-width: none;
+	padding: 0;
+}
+
+.iconhome {
+	width: 180px;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: none;
+	color: rgb(100,100,100);
+}
+
+a:hover {
+	color:green;
+	text-decoration: none;
+}
+
+#banner {
+	background-image: url(https://picsum.photos/700/700);
+	background-size: cover;
+	padding: 150px;
+	text-align: center;
+}
+
+.footer {
+	padding: 20px;
+	background-color: rgb(80,80,80 );
+	color: white;
+	text-align: left;
+}
+
+.card {
+	text-align: center;
+	margin: 50px;
+}
+
+.imgcenter {
+	display: block;
+	margin: 0 auto;
+}
+
+.fab {
+	color: #1e1e1e;
+}

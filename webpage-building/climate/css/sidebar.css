@@ -1,0 +1,44 @@
+#sidebar {
+    min-width: 300px;
+    max-width: 0px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: white;
+    margin-left: -300px;
+}
+
+#sidebar:active {
+    margin-left: 0px;
+}
+
+#sidebar:closed {
+	margin-left: -300px;	
+}
+
+
+@keyframes slideOut {
+    0%{
+        margin-left: -300px;
+    }
+    50%{
+        margin-left: -150px;
+    }
+    100%{
+        margin-left: : 0px;
+    }
+}
+
+@keyframes slideIn {
+    0%{
+        margin-left: 0px;
+    }
+    50%{
+        margin-left: -150px;
+    }
+    100%{
+        margin-left: : -300px;
+    }
+}

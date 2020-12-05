@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    padding-bottom: 5vh;
+}
+
+h2 {
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    position: relative;
+}
+
+.colour-bar {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.pad {
+    flex: 1 0 auto;
+    flex-direction: row;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.visual {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title {
+    top: 20vh;
+    padding-bottom: 40px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+#colour-1 {
+    background-color: green;
+}
+
+#colour-2 {
+    background-color: red;
+}
+
+#colour-3 {
+    background-color: purple;
+}
+
+#colour-4 {
+    background-color: blue;
+}
+
+#colour-5 {
+    background-color: yellow;
+}
+
+#colour-6 {
+    background-color: orange;
+}
+
+.colour-bar {
+    color: grey;
+}
+
+@keyframes jump {
+    0%{
+        bottom: 0%;
+        left: 20%;
+    }
+    50%{
+        bottom: 50%;
+        left: 50%;
+    }
+    100%{
+        bottom: 0%;
+        left: 80%;
+    }
+}
+
+.visual > div {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: -1;
+}
